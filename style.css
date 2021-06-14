@@ -4,6 +4,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+/* Navbar */
 nav {
   display: flex;
   padding: 3% 12%;
@@ -67,6 +68,8 @@ h3 {
 p {
   line-height: 20px;
 }
+
+/* Body of the page */
 
 .info-elements {
   width: 75%;
@@ -158,22 +161,7 @@ p {
   transition: 0.5s;
 }
 
-/*
-.options {
-  flex-basis: 31%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-}
-
-.options:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-}
-*/
-
+/* Footer of the page */
 .footer {
   color: #ffff;
   width: 100%;
@@ -198,7 +186,7 @@ p {
   padding: 18px 0;
 }
 
-/* Code for small screens */
+/* Code for smaller screen sizes */
 
 @media(max-width :800px) {
   nav {

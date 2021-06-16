@@ -71,6 +71,11 @@ p {
 
 /* Body of the page */
 
+.info {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
 .info-elements {
   width: 75%;
   display: flex;

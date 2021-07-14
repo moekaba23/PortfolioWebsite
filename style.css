@@ -136,7 +136,7 @@ p {
 .projects .content {
   padding: 1em 1em;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .content p {

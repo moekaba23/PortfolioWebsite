@@ -138,8 +138,8 @@ p {
   transition: 0.5s;
 }
 
-.content p {
-  justify-content: space-around;
+.content h1 {
+  line-height: 1.3em;
 }
 
 .projects .content:hover {
@@ -193,7 +193,7 @@ p {
 }
 
 /* Code for smaller screen sizes */
-@media(max-width :800px) {
+@media(max-width: 800px) {
   nav {
     display: block;
     align-items: center;
@@ -213,7 +213,7 @@ p {
   }
 }
 
-@media(max-width :450px) {
+@media(max-width: 450px) {
   .nav-links ul li {
     display: block;
     padding: .4em 1em;

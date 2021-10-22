@@ -100,7 +100,7 @@ p {
 .project-elements {
   margin: 2em 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  grid-template-columns: repeat(2, minmax(250px, 400px));
   justify-content: space-around;
 }
 
@@ -145,6 +145,10 @@ p {
 .projects .content:hover {
   box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
   transition: 0.5s;
+}
+
+.portfolio {
+  margin-top: 5em;
 }
 
 .portfolio a {
@@ -210,6 +214,10 @@ p {
 
   .info-elements .content:nth-child(1) {
     margin-left: auto;
+  }
+
+  .project-elements {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   }
 }
 

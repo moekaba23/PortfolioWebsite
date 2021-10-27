@@ -144,6 +144,7 @@ p {
 
 .projects .content:hover {
   box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
@@ -168,6 +169,7 @@ p {
 
 .portfolio-link-btn:hover {
   box-shadow: 1em 1em 1.5em rgba(0, 0, 0, 0.2);
+  transform: scale(.95);
   transition: 0.5s;
 }
 

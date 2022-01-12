@@ -228,6 +228,10 @@ p {
   .project-elements {
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   }
+
+  .project-elements2 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  }
 }
 
 @media(max-width: 450px) {

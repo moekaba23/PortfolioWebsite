@@ -104,6 +104,13 @@ p {
   justify-content: space-around;
 }
 
+.project-elements2 {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 400px));
+  justify-content: space-around;
+}
+
 .project-elements .content {
   min-height: 250px;
 }

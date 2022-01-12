@@ -100,7 +100,7 @@ p {
 .project-elements {
   margin: 2em 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(250px, 400px));
+  grid-template-columns: repeat(minmax(250px, 400px));
   justify-content: space-around;
 }
 

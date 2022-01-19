@@ -100,13 +100,6 @@ p {
 .project-elements {
   margin: 2em 0;
   display: grid;
-  grid-template-columns: repeat(minmax(250px, 400px));
-  justify-content: space-around;
-}
-
-.project-elements2 {
-  margin: 2em 0;
-  display: grid;
   grid-template-columns: repeat(2, minmax(250px, 400px));
   justify-content: space-around;
 }
@@ -135,7 +128,7 @@ p {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  max-height: 300px;
+  max-height: 180px;
   width: 100%;
 }
 
@@ -226,10 +219,6 @@ p {
   }
 
   .project-elements {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
-  }
-
-  .project-elements2 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   }
 }

@@ -90,6 +90,30 @@ p {
   margin-left: 0;
 }
 
+.resume {
+  margin-top: 1em;
+}
+
+.resume a {
+  text-decoration: none;
+  color: white;
+  padding: 0;
+}
+
+.resume-link-btn {
+  max-width: 12vh;
+  background: #8a8a8a;
+  border-radius: 1em;
+  padding: 1.5em 1em;
+  transition: 0.3s;
+}
+
+.resume-link-btn:hover {
+  box-shadow: 1em 1em 1.5em rgba(0, 0, 0, 0.2);
+  transform: scale(.95);
+  transition: 0.5s;
+}
+
 .projects {
   width: 80%;
   margin: auto;

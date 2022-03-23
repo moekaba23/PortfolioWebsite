@@ -114,11 +114,12 @@ p {
   transition: 0.5s;
 }
 
-.finapp-pictures {
+.project-pictures {
   margin-top: 2em;
+  margin-bottom: 4em;
 }
 
-.finapp-pictures img {
+.project-pictures img {
   width: 100%;
   max-width: 875px;
 }

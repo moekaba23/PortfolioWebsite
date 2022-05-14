@@ -75,6 +75,7 @@ p {
   width: 75%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 30px;
   margin: auto;
   align-items: center;
 }
@@ -101,7 +102,7 @@ p {
 }
 
 .resume-link-btn {
-  max-width: 12vh;
+  width: 10vh;
   background: #8a8a8a;
   border-radius: 1em;
   padding: 1.5em 1em;
@@ -233,7 +234,7 @@ p {
 }
 
 /* Code for smaller screen sizes */
-@media(max-width: 800px) {
+@media(max-width: 840px) {
   nav {
     display: block;
     align-items: center;
@@ -250,6 +251,10 @@ p {
 
   .info-elements .content:nth-child(1) {
     margin-left: auto;
+  }
+
+  .resume-link-btn {
+    margin: auto;
   }
 
   .project-elements {

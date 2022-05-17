@@ -72,7 +72,7 @@ p {
 }
 
 .info-elements {
-  width: 75%;
+  width: 60%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 30px;
@@ -92,6 +92,7 @@ p {
 }
 
 .resume {
+  width: 10vh;
   margin-top: 1em;
 }
 
@@ -102,7 +103,7 @@ p {
 }
 
 .resume-link-btn {
-  width: 9vh;
+  width: 10vh;
   background: #8a8a8a;
   border-radius: 1em;
   padding: 1.5em 1em;
@@ -110,7 +111,7 @@ p {
 }
 
 .resume-link-btn:hover {
-  box-shadow: 1em 1em 1.5em rgba(0, 0, 0, 0.2);
+  box-shadow: .5em .5em .7em rgba(0, 0, 0, 0.2);
   transform: scale(.95);
   transition: 0.5s;
 }
@@ -234,6 +235,12 @@ p {
 }
 
 /* Code for smaller screen sizes */
+@media(max-width: 1050px) {
+  .info-elements {
+    width: 75%;
+  }
+}
+
 @media(max-width: 840px) {
   nav {
     display: block;
@@ -249,11 +256,15 @@ p {
     margin-top: 1em;
   }
 
+  .info-elements {
+    width: 50%;
+  }
+
   .info-elements .content:nth-child(1) {
     margin-left: auto;
   }
 
-  .resume-link-btn {
+  .resume {
     margin: auto;
   }
 
@@ -262,9 +273,18 @@ p {
   }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 500px) {
   .nav-links ul li {
     display: block;
     padding: .4em 1em;
   }
+
+  .info-elements {
+    display: block;
+  }
+
+  .resume {
+    margin: auto;
+  }
+}
 }

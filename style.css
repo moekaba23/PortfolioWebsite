@@ -67,12 +67,11 @@ p {
 
 /* Body of the page */
 .info {
-  background-color: #e6e6e6;
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .info-elements {
-  width: 60%;
+  width: 75%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 30px;
@@ -81,14 +80,10 @@ p {
 }
 
 .info-elements .content img {
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 200px;
+  max-width: 200px;
   border-radius: 1em;
   margin-right: 0;
-}
-
-.info-elements .content:nth-child(1) {
-  margin-left: 0;
 }
 
 .resume {
@@ -141,13 +136,13 @@ p {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .project-elements {
   margin: 2em 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(250px, 400px));
+  grid-template-columns: repeat(2, minmax(250px, 500px));
   justify-content: space-around;
 }
 
@@ -161,7 +156,7 @@ p {
 }
 
 .info-elements, .project-elements p {
-  color: #777;
+  color: black;
 }
 
 .content {
@@ -175,7 +170,7 @@ p {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  max-height: 180px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -224,7 +219,7 @@ p {
 .footer {
   color: #ffff;
   width: 100%;
-  background: #0099ff;
+  background: #4d4d4d;
   text-align: center;
   padding: 2em 0 5em;
   margin-top: 5em;

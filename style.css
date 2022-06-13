@@ -74,7 +74,6 @@ p {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 30px;
   margin: auto;
   align-items: center;
 }
@@ -83,7 +82,15 @@ p {
   max-height: 200px;
   max-width: 200px;
   border-radius: .5em;
+}
+
+.info-elements .content:nth-child(1) {
   margin-right: 0;
+  padding-right: 2.5em;
+}
+
+.info-elements .content:nth-child(2) {
+  margin-left: 0;
 }
 
 .resume {
@@ -265,6 +272,10 @@ p {
   .info-elements {
     display: block;
     text-align: center;
+  }
+
+  .info-elements .content:nth-child(1) {
+    padding: 0;
   }
 
   .resume {

@@ -71,7 +71,7 @@ p {
 }
 
 .info-elements {
-  width: 75%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 30px;
@@ -242,7 +242,7 @@ p {
 }
 
 /* Code for smaller screen sizes */
-@media(max-width: 840px) {
+@media(max-width: 800px) {
   nav {
     display: block;
     align-items: center;

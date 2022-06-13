@@ -86,11 +86,12 @@ p {
 
 .info-elements .content:nth-child(1) {
   margin-right: 0;
-  padding-right: 2.5em;
+  padding-right: 3em;
 }
 
 .info-elements .content:nth-child(2) {
   margin-left: 0;
+  padding-left: 2em;
 }
 
 .resume {

@@ -235,10 +235,14 @@ p {
 }
 
 .footer hr {
-  width: 40%;
+  width: 25%;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.footer p {
+  font-size: 0.75em;
 }
 
 .icons .fa {

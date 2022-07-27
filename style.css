@@ -134,11 +134,19 @@ p {
   margin: auto;
   max-width: 875px;
   text-align: left;
-  padding: 50px 0;
+  padding: 3em 0;
 }
 
 .case-study h4 {
-  margin: 20px 0;
+  margin: 3em 0 1em 0;
+}
+
+.case-study ul {
+  padding: .5em;
+}
+
+.case-study li {
+  padding: .3em;
 }
 
 .projects {

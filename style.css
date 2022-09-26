@@ -56,7 +56,6 @@ h1 {
 }
 
 h3 {
-  text-align: center;
   font-weight: 600;
   margin: .5em 0;
 }
@@ -146,7 +145,12 @@ p {
 }
 
 .case-study li {
+  font-size: 1.2em;
   padding: .3em;
+}
+
+.case-study p {
+  font-size: 1.2em;
 }
 
 .projects {

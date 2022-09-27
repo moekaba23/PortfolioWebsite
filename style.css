@@ -131,7 +131,7 @@ p {
 
 .case-study {
   margin: auto;
-  max-width: 875px;
+  max-width: 925px;
   text-align: left;
   padding: 3em 0;
 }
@@ -151,6 +151,11 @@ p {
 
 .case-study p {
   font-size: 1.2em;
+}
+
+.case-study-elements {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 700px));
 }
 
 .projects {
@@ -309,6 +314,10 @@ p {
 
   .project-elements {
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  }
+
+  .case-study-elements {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
   }
 }
 

@@ -158,6 +158,11 @@ p {
   grid-template-columns: repeat(2, minmax(300px, 700px));
 }
 
+.case-study-elements img:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
 .projects {
   width: 80%;
   margin: auto;

@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Hi, I'm Mohamed Kaba and I'm a user experience designer!
+### Hi, I'm Mohamed Kaba and I'm a user experience designer!
 
 This is a repository for my portfolio website [mohamedkaba.dev](https://www.mohamedkaba.dev)
 

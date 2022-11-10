@@ -119,6 +119,11 @@ p {
   transition: 0.5s;
 }
 
+.background img {
+  width: 100%;
+  max-width: 1350px;
+}
+
 .project-pictures {
   margin-top: 2em;
   margin-bottom: 4em;
@@ -167,11 +172,6 @@ p {
 }
 
 .case-study-elements img:hover {
-  transform: scale(1.3);
-  transition: 0.5s;
-}
-
-.case-study-elements2 img:hover {
   transform: scale(1.4);
   transition: 0.5s;
 }

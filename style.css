@@ -343,7 +343,6 @@ p {
   }
 
   .case-study-elements2 {
-    transform: scale(.75);
     display: flex;
     flex-direction: column;
     justify-content: center;

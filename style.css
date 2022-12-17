@@ -180,6 +180,11 @@ p {
   transition: 0.5s;
 }
 
+.grid-three {
+  display: flex;
+  justify-content: space-between;
+}
+
 .projects {
   width: 80%;
   margin: auto;
@@ -356,6 +361,10 @@ p {
   }
 
   .info-elements {
+    display: block;
+  }
+
+  .grid-three {
     display: block;
   }
 }

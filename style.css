@@ -202,7 +202,6 @@ p {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding: 2em 0;
 }
 
 .project-elements {
@@ -229,6 +228,12 @@ p {
   border-radius: 1em;
   margin: auto;
   position: relative;
+}
+
+.content a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
 }
 
 .content img {

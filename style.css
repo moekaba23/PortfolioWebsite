@@ -50,6 +50,12 @@ nav img {
   transition: 0.5s;
 }
 
+hr {
+  margin: 3em 0;
+  color: #8a8a8a;
+  opacity: 40%;
+}
+
 h1 {
   font-weight: 600;
   padding: .5em 0;
@@ -128,7 +134,7 @@ p {
 
 .background img {
   width: 100%;
-  max-width: 1350px;
+  max-width: 1400px;
 }
 
 .project-pictures {
@@ -138,7 +144,7 @@ p {
 
 .project-pictures img {
   width: 100%;
-  max-width: 875px;
+  max-width: 900px;
 }
 
 .case-study {
@@ -165,22 +171,26 @@ p {
   font-size: 1.2em;
 }
 
-.case-study-elements {
+.case-study-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 700px));
 }
 
-.case-study-elements2 {
-  transform: scale(.9);
+.case-study-grid img:hover {
+  transform: scale(1.4);
+  transition: 0.5s;
+}
+
+.case-study-flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3em;
+  gap: 2em;
 }
 
-.case-study-elements img:hover {
-  transform: scale(1.4);
-  transition: 0.5s;
+.case-study-flex img {
+  width: 100%;
+  max-width: 650px;
 }
 
 .grid-three {
@@ -332,11 +342,11 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   }
 
-  .case-study-elements {
+  .case-study-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
   }
 
-  .case-study-elements2 {
+  .case-study-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;

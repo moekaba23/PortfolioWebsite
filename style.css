@@ -106,27 +106,25 @@ p {
   border-radius: .5em;
 }
 
-.resume {
-  width: 11vh;
-  margin-top: 1em;
+.button {
+  display: inline-block;
 }
 
-.resume a {
+.button a {
   text-decoration: none;
   align-content: center;
   color: white;
   padding: 0;
 }
 
-.resume-link-btn {
-  width: 11vh;
+.button-link-btn {
   background: #8a8a8a;
   border-radius: .5em;
   padding: 1.5em 1em;
   transition: 0.3s;
 }
 
-.resume-link-btn:hover {
+.button-link-btn:hover {
   box-shadow: .5em .5em .7em rgba(0, 0, 0, 0.2);
   transform: scale(.95);
   transition: 0.5s;
@@ -191,6 +189,10 @@ p {
 .case-study-flex img {
   width: 100%;
   max-width: 650px;
+}
+
+.case-study-flex2 {
+  display: inline-block;
 }
 
 .grid-three {
@@ -335,7 +337,7 @@ p {
     width: 80%;
   }
 
-  .resume {
+  .button {
     margin: auto;
   }
 

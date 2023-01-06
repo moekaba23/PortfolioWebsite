@@ -369,5 +369,8 @@ p {
   .grid-three {
     display: block;
   }
-}
+
+  .button {
+    margin-top: 2em;
+  }
 }

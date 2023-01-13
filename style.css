@@ -216,7 +216,6 @@ p {
 }
 
 .project-elements {
-  margin: 2em 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 500px));
   justify-content: space-around;
@@ -356,10 +355,6 @@ p {
     margin: auto;
   }
 
-  .projects {
-    padding-top: 0;
-  }
-
   .project-elements {
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
   }
@@ -383,6 +378,10 @@ p {
 
   .grid-three {
     display: block;
+  }
+
+  .projects {
+    width: 90%;
   }
 
   .button {

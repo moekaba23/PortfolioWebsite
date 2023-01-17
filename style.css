@@ -189,14 +189,10 @@ p {
 }
 
 .case-study-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   gap: 2em;
 }
 
 .case-study-flex img {
-  width: 100%;
   max-width: 500px;
 }
 

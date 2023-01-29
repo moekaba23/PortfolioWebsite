@@ -446,7 +446,7 @@ p {
   }
 
   .about-work {
-    height: 680px;
+    height: 380px;
   }
 
   .about-mid {
@@ -454,7 +454,11 @@ p {
   }
 
   .about-text {
-    width: 95%;
+    width: 100%;
     margin-bottom: 3em;
+  }
+
+  .about-mid div:nth-child(2) {
+    display: none;
   }
 }

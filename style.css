@@ -395,6 +395,15 @@ p {
     width: 80%;
   }
 
+  .about-head {
+    display: block;
+  }
+
+  .about-text {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+
   .button {
     margin: auto;
   }

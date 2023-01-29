@@ -100,19 +100,58 @@ p {
   width: 50%;
 }
 
-.about {
+.about-head {
   padding: 5em 0;
-  width: 80%;
-  display: block;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   margin: auto;
-  text-align: center;
-  align-items: center;
 }
 
-.about img {
-  max-height: 400px;
-  max-width: 400px;
+.about-text {
+  width: 50%;
+  text-align: left;
+}
+
+.about-pic img {
+  max-height: 300px;
+  max-width: 300px;
   border-radius: .5em;
+}
+
+.about-work {
+  background-color: #04060e;
+  height: 365px;
+}
+
+.about-mid {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.about-mid div:nth-child(1) {
+  align-items: flex-start;
+  color: #FFFF;
+}
+
+.about-mid div:nth-child(2) {
+  align-items: flex-end;
+  color: #C5C5C5;
+}
+
+.about-mid-text {
+  padding: 2em 0;
+}
+
+.about-mid-text h2 {
+  padding-bottom: 1em;
+}
+
+.about-mid-text h4 {
+  padding: 2em 0;
 }
 
 .button {
@@ -206,6 +245,11 @@ p {
 .grid-three {
   display: flex;
   justify-content: space-between;
+}
+
+.grid-three img {
+  width: 100px;
+  height: 100px;
 }
 
 .projects {
@@ -367,6 +411,11 @@ p {
     flex-direction: column;
     justify-content: center;
   }
+
+  iframe {
+    min-width: 600px;
+    min-height: 350px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -389,5 +438,22 @@ p {
 
   .button {
     margin-top: 2em;
+  }
+
+  .about-head {
+    display: block;
+  }
+
+  .about-work {
+    height: 680px;
+  }
+
+  .about-mid {
+    display: block;
+  }
+
+  .about-text {
+    width: 95%;
+    margin-bottom: 3em;
   }
 }

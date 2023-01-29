@@ -420,8 +420,12 @@ p {
 }
 
 @media(max-width: 500px) {
+  nav {
+    padding: 3% 0;
+  }
+
   .nav-links ul li {
-    padding: 0 .85em;
+    padding: 0 1em;
   }
 
   .info {

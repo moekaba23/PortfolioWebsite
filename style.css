@@ -413,7 +413,7 @@ p {
   }
 
   .case-study-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    display: block;
   }
 
   .case-study-flex {

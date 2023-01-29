@@ -126,10 +126,11 @@ p {
 }
 
 .about-mid {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin: auto;
+  max-width: 1000px;
 }
 
 .about-mid div:nth-child(1) {

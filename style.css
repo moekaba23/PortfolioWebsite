@@ -85,7 +85,7 @@ p {
 }
 
 .info {
-  padding: 5em 0;
+  padding: 3em 0;
   width: 80%;
   display: block;
   margin: auto;
@@ -432,6 +432,7 @@ p {
   }
 
   .info {
+    padding: 2em 0;
     width: 85%;
   }
 

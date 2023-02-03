@@ -77,6 +77,13 @@ p {
 }
 
 /* Body of the page */
+.title {
+  margin: auto;
+  max-width: 925px;
+  text-align: left;
+  padding: 0;
+}
+
 .space {
   height: 1px;
   width: 100%;

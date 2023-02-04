@@ -225,7 +225,7 @@ p {
 .case-study-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 750px));
-  margin: auto;
+  text-align: center;
 }
 
 .case-study-grid img:hover {

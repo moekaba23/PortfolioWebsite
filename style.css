@@ -104,7 +104,6 @@ p {
   font-weight: 600;
   line-height: 1.5;
   padding: 1em 0;
-  width: 50%;
 }
 
 .about-head {
@@ -395,10 +394,6 @@ p {
   .nav-links {
     text-align: center;
     margin-top: 1em;
-  }
-
-  .info h3 {
-    width: 80%;
   }
 
   .about-head {

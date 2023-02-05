@@ -106,7 +106,7 @@ p {
   padding: 1em 0;
 }
 
-.about-head {
+.about-top {
   padding: 3em 0;
   max-width: 1000px;
   display: flex;
@@ -115,9 +115,14 @@ p {
   margin: auto;
 }
 
-.about-text {
+.about-top-text {
   width: 50%;
   text-align: left;
+}
+
+.about-top-text a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .about-pic img {
@@ -392,11 +397,11 @@ p {
     margin-top: 1em;
   }
 
-  .about-head {
+  .about-top {
     display: block;
   }
 
-  .about-text {
+  .about-top-text {
     width: 100%;
     margin-bottom: 3em;
   }
@@ -447,9 +452,14 @@ p {
     margin-top: 2em;
   }
 
-  .about-head {
+  .about-top {
     padding: 2em 0;
     display: block;
+  }
+
+  .about-top-text {
+    width: 100%;
+    margin-bottom: 3em;
   }
 
   .about-work {
@@ -458,11 +468,6 @@ p {
 
   .about-mid {
     display: block;
-  }
-
-  .about-text {
-    width: 100%;
-    margin-bottom: 3em;
   }
 
   .about-mid div:nth-child(2) {

@@ -251,6 +251,7 @@ p {
 .grid-three {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .grid-three img {
@@ -442,6 +443,10 @@ p {
 
   .grid-three {
     display: block;
+  }
+
+  .grid-three div {
+    padding-bottom: 2em;
   }
 
   .projects {

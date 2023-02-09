@@ -245,6 +245,10 @@ p {
   max-width: 540px;
 }
 
+#uhp-old img {
+  max-width: 680px;
+}
+
 #movapp {
   margin: auto;
   max-width: 1250px;

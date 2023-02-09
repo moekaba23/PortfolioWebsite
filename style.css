@@ -228,6 +228,7 @@ p {
 }
 
 .case-study-grid {
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 750px));
   text-align: center;
@@ -242,6 +243,15 @@ p {
 
 .case-study-flex img {
   max-width: 540px;
+}
+
+#movapp {
+  margin: auto;
+  max-width: 1250px;
+}
+
+#movapp img {
+  max-width: 285px;
 }
 
 .case-study-flex2 {

@@ -168,6 +168,11 @@ p {
   display: inline-block;
 }
 
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
 .button a {
   text-decoration: none;
   align-content: center;
@@ -245,16 +250,16 @@ p {
   max-width: 540px;
 }
 
-#uhp-old img {
+#uhpOld img {
   max-width: 620px;
 }
 
-#movapp {
+#movApp {
   margin: auto;
   max-width: 1250px;
 }
 
-#movapp img {
+#movApp img {
   max-width: 285px;
 }
 

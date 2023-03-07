@@ -443,11 +443,6 @@ p {
     flex-direction: column;
     justify-content: center;
   }
-
-  iframe {
-    min-width: 600px;
-    min-height: 350px;
-  }
 }
 
 @media(max-width: 500px) {

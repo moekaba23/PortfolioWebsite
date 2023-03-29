@@ -250,6 +250,10 @@ p {
   max-width: 540px;
 }
 
+#uhpTest img {
+  max-height: 620px;
+}
+
 #uhpOld img {
   max-width: 620px;
 }

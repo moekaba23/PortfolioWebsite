@@ -237,6 +237,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 750px));
   text-align: center;
+  justify-content: space-evenly;
 }
 
 .case-study-flex {
@@ -486,7 +487,7 @@ p {
   }
 
   .about-work {
-    height: 420px;
+    height: 450px;
   }
 
   .about-mid {

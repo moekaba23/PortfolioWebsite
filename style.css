@@ -235,6 +235,7 @@ p {
 .case-study-grid {
   margin: auto;
   display: grid;
+  max-width: 1850px;
   grid-template-columns: repeat(2, minmax(300px, 750px));
   text-align: center;
   justify-content: space-evenly;

@@ -182,8 +182,8 @@ p {
 
 .button-link-btn {
   background: #2C3136;
-  border-radius: .5em;
-  padding: 1.5em 1em;
+  border-radius: .3em;
+  padding: 1em 1em;
   transition: 0.3s;
 }
 

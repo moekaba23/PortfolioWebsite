@@ -132,7 +132,7 @@ p {
 }
 
 .about-work {
-  background-color: #04060e;
+  background-color: #1A1D20;
   height: 445px;
 }
 
@@ -181,7 +181,7 @@ p {
 }
 
 .button-link-btn {
-  background: #8a8a8a;
+  background: #2C3136;
   border-radius: .5em;
   padding: 1.5em 1em;
   transition: 0.3s;
@@ -382,7 +382,7 @@ p {
 .footer {
   color: #ffff;
   width: 100%;
-  background: #4d4d4d;
+  background: #1A1D20;
   text-align: center;
   padding: 2em 0 5em;
   margin-top: 5em;

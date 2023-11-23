@@ -128,7 +128,7 @@ p {
 .about-pic img {
   max-height: 300px;
   max-width: 300px;
-  border-radius: .5em;
+  border-radius: .2em;
 }
 
 .about-work {

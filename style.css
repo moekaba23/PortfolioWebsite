@@ -183,7 +183,7 @@ p {
 .button-link-btn {
   background: #2C3136;
   border-radius: .3em;
-  padding: 1em 1em;
+  padding: 1em;
   transition: 0.3s;
 }
 
@@ -196,11 +196,6 @@ p {
 .background img {
   width: 100%;
   max-width: 1400px;
-}
-
-.project-pictures {
-  margin-top: 2em;
-  margin-bottom: 4em;
 }
 
 .project-pictures img {
@@ -301,7 +296,6 @@ p {
 }
 
 .project-page {
-  padding-top: 2em;
   width: 90%;
   margin: auto;
   text-align: center;

@@ -9,7 +9,7 @@
 nav {
   margin: auto;
   display: flex;
-  padding: 3% 12%;
+  padding: 2% 12%;
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
@@ -417,6 +417,14 @@ p {
     margin-top: 1em;
   }
 
+  #uhp {
+    margin-top: 1rem;
+  }
+
+  #mansa {
+    margin-top: 1rem;
+  }
+
   .about-top {
     display: block;
   }
@@ -448,6 +456,18 @@ p {
 @media(max-width: 500px) {
   nav {
     padding: 3% 0;
+  }
+
+  #uhp {
+    margin-top: 1rem;
+  }
+
+  #mansa {
+    margin-top: 1rem;
+  }
+
+  .case-study h1 {
+    text-align: center;
   }
 
   .info {

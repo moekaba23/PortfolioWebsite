@@ -9,10 +9,10 @@
 nav {
   margin: auto;
   display: flex;
-  padding: 2% 12%;
+  padding: 2% 8%;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 nav img {
@@ -93,11 +93,11 @@ p {
 
 .info {
   padding: 3em 0;
-  width: 80%;
+  width: 90%;
   display: block;
   margin: auto;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1050px;
 }
 
 .info h3 {
@@ -107,11 +107,12 @@ p {
 }
 
 .about-top {
+  width: 90%;
   padding: 3em 0;
-  max-width: 1000px;
+  max-width: 1050px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -290,7 +291,7 @@ p {
   grid-template-columns: repeat(2, minmax(250px, 500px));
   justify-content: space-around;
   column-gap: .5rem;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 
 .project-elements .content {

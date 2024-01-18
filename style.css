@@ -289,6 +289,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 500px));
   justify-content: space-around;
+  row-gap: 1rem;
 }
 
 .project-elements .content {
@@ -325,14 +326,12 @@ p {
 .content img {
   border-radius: 0.2em;
   margin: auto;
-  margin-top: 1em;
   margin-bottom: 1em;
   max-height: 400px;
   width: 100%;
 }
 
 .projects .content {
-  padding: 1em 1em;
   box-sizing: border-box;
   transition: 0.5s;
 }
@@ -342,8 +341,7 @@ p {
 }
 
 .projects .content:hover {
-  box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
+  transform: translateY(-1rem);
   transition: 0.5s;
 }
 

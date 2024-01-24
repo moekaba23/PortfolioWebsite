@@ -127,7 +127,6 @@ p {
 }
 
 .about-pic img {
-  max-height: 325px;
   max-width: 325px;
   border-radius: .2em;
 }

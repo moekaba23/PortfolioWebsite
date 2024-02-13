@@ -121,11 +121,6 @@ p {
   text-align: left;
 }
 
-.about-top-text a {
-  color: #000000;
-  text-decoration: none;
-}
-
 .about-pic img {
   max-width: 325px;
   border-radius: .2em;
@@ -262,6 +257,11 @@ p {
 
 #movApp img {
   max-width: 285px;
+}
+
+#web-link {
+  color: #000000;
+  text-decoration: none;
 }
 
 .case-study-flex2 {

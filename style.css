@@ -98,6 +98,7 @@ p {
   margin: auto;
   align-items: center;
   max-width: 1050px;
+  animation: slide-up .7s;
 }
 
 .info h3 {
@@ -114,6 +115,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
+  animation: slide-up .7s;
 }
 
 .about-top-text {
@@ -149,6 +151,9 @@ p {
 
 .about-mid-text {
   padding: 2em 0;
+  animation: slide-up .7s;
+  animation-delay: .3s;
+  animation-fill-mode: both;
 }
 
 .about-mid-text h2 {
@@ -291,6 +296,9 @@ p {
   justify-content: space-around;
   column-gap: .5rem;
   row-gap: 2rem;
+  animation: slide-up .7s;
+  animation-delay: .3s;
+  animation-fill-mode: both;
 }
 
 .project-elements .content {
@@ -510,5 +518,28 @@ p {
 
   .about-mid div:nth-child(2) {
     display: none;
+  }
+}
+
+/*Animations */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }

@@ -200,7 +200,7 @@ p {
 
 .project-pictures img {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .case-study {
@@ -225,6 +225,10 @@ p {
 
 .case-study p {
   font-size: 1.1em;
+}
+
+.case-study img {
+  width: 100%;
 }
 
 .case-study-grid {

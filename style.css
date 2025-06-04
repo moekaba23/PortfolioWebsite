@@ -101,16 +101,10 @@ p {
   animation: slide-up .7s;
 }
 
-.info h3 {
-  font-weight: 600;
-  line-height: 2;
-  padding: 1em 0;
-}
-
 .about-top {
   width: 90%;
   padding: 3em 0;
-  max-width: 1050px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -134,11 +128,10 @@ p {
 }
 
 .about-mid {
-  width: 80%;
   display: flex;
   justify-content: space-between;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
 .about-mid div:nth-child(1) {

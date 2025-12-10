@@ -59,8 +59,8 @@ hr {
 }
 
 h1 {
+  font-size: 32px;
   font-weight: 600;
-  padding: .5em 0;
 }
 
 #mov {
@@ -129,9 +129,9 @@ p {
 
 .about-mid {
   display: flex;
-  width: 90%;
   justify-content: space-between;
   margin: auto;
+  width: 90%;
   max-width: 1100px;
 }
 
